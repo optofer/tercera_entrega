@@ -1,0 +1,139 @@
+
+ 
+ 
+ 
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+@keyframes blink{
+    0%{opacity: 1;}
+    50%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+header{
+    background-color: dodgerblue;
+    height: 200px;
+    font-size: 30px;
+    padding: 50px;
+    font-family: 'Franklin Gothic Medium';
+
+}   
+
+.logo{
+    float:left;
+    color: rgb(255, 0, 140);
+    font-weight: bold;
+    margin: 3px;
+    padding-top: 1px;
+    
+}
+.logo span{
+    color: #000;
+    animation: blink 1s infinite;
+}
+.logo span:hover{
+    color: #fff;
+}
+#usuario{
+    font-weight: bold;
+    float: right;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+#usuario:hover{
+    color: #000;
+}
+.banav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 50px;   
+}
+
+
+.banav ul {
+   list-style: none;
+}
+.banav ul li{
+    display:inline-flex;
+  
+    
+}
+
+
+.banav a{
+    text-decoration: none;
+    color: black;
+    
+}
+.banav a:hover{
+    color: #fff ;
+}
+
+ main{
+    height:500px; 
+    background-image: url(imagenes/portada2.jpg);
+    background-size:cover;
+}
+
+section{
+    height: 500px;
+    background-color: #8d3333;
+ 
+}
+.texto2{
+    border: 2px solid #000;
+    text-align: center;
+    font-size: 80px;
+}
+#uno{
+    width: 230px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+#dos{
+    border: 2px solid #000;
+    text-align: center;
+    font-size: 40px;
+}
+
+#tres{
+    border: 2px solid #000;
+    text-align: center;
+    font-size: 40px;
+}
+
+footer{
+    text-align: center;
+    font-size: 40px;
+    background-color: crimson;
+    height: 100%;
+    padding: 20px;
+}
+footer p{
+    margin-bottom: 20px;
+}
+.texf{
+    animation: blink 1s infinite;
+}
+footer i{
+    color: dodgerblue;
+    letter-spacing: 10px;
+}
+
+
+
+
